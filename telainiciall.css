@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #004d40;
+    padding: 20px;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.cabeçalho h1 {
+    font-size: 2rem;
+}
+
+.profile-button {
+    background-color: #00695c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.profile-button i {
+    margin-right: 8px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.imagens {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.imagens img {
+    width: 30%;
+    border-radius: 8px;
+}
+
+section h3 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.botoes {
+    display: flex;
+    gap: 15px;
+}
+
+.button {
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #004d40;
+}
+
+.chat-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.chat-button:hover {
+    background-color: #e64a19;
+}
+
+.chat-button i {
+    font-size: 1.5rem;
+}
